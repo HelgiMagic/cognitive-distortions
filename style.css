@@ -35,6 +35,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Neucha';
   line-height: 1.2em;
+  font-weight: normal;
 }
 
 h1 {
@@ -47,6 +48,10 @@ h2 {
 
 h3 {
   font-size: 34px;
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 .questions {
@@ -75,10 +80,6 @@ h3 {
   position: relative;
 }
 
-.header {
-
-}
-
 .laptop-man {
   position: absolute;
   height: 525px;
@@ -105,4 +106,33 @@ h3 {
   font-weight: bold;
   text-decoration: none;
   color: white;
+}
+
+.what-is {
+  background-color: white;
+}
+
+.author-name {
+  margin: 30px auto;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  margin-bottom: -200px;
+}
+
+.black-block {
+  position: absolute;
+  background-color: var(--black);
+  bottom: 0;
+  width: 100vw;
+  content: '';
+}
+
+.remember {
+  background: var(--black);
+}
+
+.remember .section {
+  padding-top: 200px;
 }

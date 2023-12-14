@@ -36,6 +36,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Neucha';
   line-height: 1.2em;
   font-weight: normal;
+
+  margin: 0;
 }
 
 h1 {
@@ -135,4 +137,51 @@ h3 {
 
 .remember .section {
   padding-top: 200px;
+}
+
+.remember nav {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 30px;
+}
+
+.remember h2 {
+  color: white;
+  width: 350px;
+
+  font-size: 52px;
+}
+
+.card {
+  width: 350px;
+
+  padding: 24px;
+
+  background: var(--light);
+
+  text-decoration: none;
+  color: black;
+
+  cursor: pointer;
+}
+
+.upper-card {
+  height: 323px;
+}
+
+.bottom-card {
+  height: 348px;
+}
+
+.card__number {
+  margin-bottom: 40px;
+  
+  font-size: 64px;
+  font-family: 'Neucha';
+  line-height: 1;
+}
+
+.card__name {
+  color: var(--main);
 }

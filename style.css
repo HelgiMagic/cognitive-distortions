@@ -30,6 +30,9 @@ body {
   font-size: 16px;
   line-height: 1.6em;
   color: #2A2626;
+
+  margin: 0;  
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,6 +53,11 @@ h2 {
 
 h3 {
   font-size: 34px;
+}
+
+h4 {
+  font-size: 24px;
+  color: var(--half-black);
 }
 
 .margin-auto {
@@ -82,6 +90,10 @@ h3 {
   position: relative;
 }
 
+.bg-light {
+  background-color: var(--light);
+}
+
 .laptop-man {
   position: absolute;
   height: 525px;
@@ -90,13 +102,16 @@ h3 {
 }
 
 .two-text {
-  margin-top: 200px;
   display: flex;
   gap: 30px;
 }
 
+.m-200 {
+  margin-top: 200px;
+}
+
 .half {
-  width: 540px;
+  width: 50%
 }
 
 .button {
@@ -108,6 +123,10 @@ h3 {
   font-weight: bold;
   text-decoration: none;
   color: white;
+}
+
+.button:hover {
+  background: #EA7600;
 }
 
 .what-is {
@@ -166,6 +185,15 @@ h3 {
   cursor: pointer;
 }
 
+.card:hover {
+  background: var(--main);
+  color: white;
+}
+
+.card:hover .card__name {
+  color: white;
+}
+
 .upper-card {
   height: 323px;
 }
@@ -184,4 +212,33 @@ h3 {
 
 .card__name {
   color: var(--main);
+}
+
+/* .ikea {
+
+} */
+
+.photo-title {
+  display: flex;
+  gap: 30px;
+}
+
+.img-wrapper {
+  background-color: white;
+}
+
+.universal-img {
+  vertical-align: middle;
+  background-color: white;
+  box-shadow: 0px 16px 32px 0px #00000026;
+}
+
+.brown-brick {
+  margin: 100px 0 20px 0;
+  background-color: var(--brown);
+  color: white;
+}
+
+.how-manifests {
+  margin: 5px 10px;
 }

@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 72px;
+  color: var(--main);
 }
 
 h2 {
@@ -92,6 +93,11 @@ h4 {
 
 .bg-light {
   background-color: var(--light);
+}
+
+.bg-brown {
+  background-color: var(--brown);
+  color: white;
 }
 
 .laptop-man {
@@ -166,7 +172,6 @@ h4 {
 }
 
 .remember h2 {
-  color: white;
   width: 350px;
 
   font-size: 52px;
@@ -241,4 +246,26 @@ h4 {
 
 .how-manifests {
   margin: 5px 10px;
+}
+
+.white-brick {
+  margin: 100px 0 20px 0;
+  background-color: white;
+  color: var(--brown);
+}
+
+.half-white {
+  color: var(--half-white);
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.orange {
+  color: var(--main);
 }

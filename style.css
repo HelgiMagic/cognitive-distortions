@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Open Sans";
-  src: url(public/OpenSans-Regular.ttf);
+  src: url(OpenSans-Regular.ttf);
 }
 
 @font-face {
   font-family: "Neucha";
-  src: url(public/Neucha-Regular.ttf);
+  src: url(Neucha-Regular.ttf);
 }
 
 
@@ -73,7 +73,7 @@ h4 {
   content: '';
   background-repeat: no-repeat;
   background-size: cover;
-  background: url('public/background.png');
+  background: url('background.png');
   opacity: 0.1;
   position: absolute;
   width: 100%;
@@ -328,7 +328,7 @@ input {
 }
 
 .footer__button::before {
-  content: url(public/send.svg);
+  content: url(send.svg);
 }
 
 .mini-text {

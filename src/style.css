@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Open Sans";
-  src: url(/OpenSans-Regular.ttf);
+  src: url(public/OpenSans-Regular.ttf);
 }
 
 @font-face {
   font-family: "Neucha";
-  src: url(/Neucha-Regular.ttf);
+  src: url(public/Neucha-Regular.ttf);
 }
 
 
@@ -73,7 +73,7 @@ h4 {
   content: '';
   background-repeat: no-repeat;
   background-size: cover;
-  background: url('background.png');
+  background: url('public/background.png');
   opacity: 0.1;
   position: absolute;
   width: 100%;
@@ -323,6 +323,8 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  cursor: pointer;
 }
 
 .footer__button::before {
